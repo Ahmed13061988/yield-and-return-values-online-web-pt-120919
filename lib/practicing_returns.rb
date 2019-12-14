@@ -8,7 +8,6 @@ def hello(array)
     yield(array[i])
     i += 1
   end
-  collection
 end
 
 binding.pry
